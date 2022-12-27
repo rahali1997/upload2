@@ -2,12 +2,7 @@ version: '3.3'
 
 services:
     c1:
-      container_name: mynode
+      container_name: mynode1
       build: .
       ports:
         - 5000:5000
-    c2:
-      container_name: mynode2
-      build: .
-      ports:
-        - 4000:5000
